@@ -1,0 +1,109 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+#page-1 {
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/03e533bf-8b1d-463f-9813-9a597aafb280/bvlatuR/std/4096x2560/M3-Homepage-Desktop-LHD);
+    background-size: cover;
+    height: 100vh;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+
+    #top {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        .logo {
+            padding-left: 30px;
+            font-size: larger;
+            font-family: tesla;
+            letter-spacing: 10;
+        }
+        .menu-primary {
+            display: flex;
+            .sec-menu {
+                cursor: pointer;
+                padding-top: 3px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+                font-weight: 500;
+            }
+        }
+        .menu-secundary {
+            display: flex;
+            .sec-menu {
+                cursor: pointer;
+                padding-top: 3px;
+                padding-left: 15px;
+                padding-right: 15px;
+                font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+                font-weight: 500;
+            }
+        }
+        .sec-menu:hover {
+            background: rgba(94, 94, 94, 0.349);
+            border-radius: 2px;
+        }
+    }
+    #type-vehicle {
+        margin-top: 40px;
+        text-align: center;
+        #model {
+            font-size: 40px;
+            font-weight: 500;
+            letter-spacing: 5;
+        }
+        .door {
+            height: 40px;
+            cursor: pointer;
+        }
+        .door:hover {
+            .line-test {
+                height: 2px;
+            }
+        }
+        .line-test {
+            width: 15%;
+            height: 1px;
+            background: rgb(39, 39, 39);
+            margin: auto;
+        }
+    }
+    #vehicle-shop{
+        display: flex ;
+        justify-content: space-between;
+        width: 30%;
+        margin: auto;
+        margin-top: 250px;
+        .custom{
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+            background: rgba(51, 51, 51, 0.603);
+            border-radius: 3px;
+            font-weight: 500;
+            color: white;
+            cursor: pointer;
+        }
+        .inventory{
+            cursor: pointer;
+            padding: 5px;
+            padding-left: 40px;
+            padding-right: 40px;
+            background: rgba(235, 234, 234, 0.671);
+            border-radius: 3px;
+            font-weight: 500;
+            color: rgb(48, 48, 48);
+
+        }
+    }
+    
+}
+#page-2{
+    background-image: url(https://tesla-cdn.thron.com/delivery/public/image/tesla/8e2df1b9-a4bf-4eb9-beec-2cf5cc77fca0/bvlatuR/std/2880x2400/Desktop-ModelY?quality=70);
+    background-size: cover;
+    height: 100vh;
+
+}
